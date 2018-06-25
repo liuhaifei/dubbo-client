@@ -6,7 +6,9 @@
 
     <dubbo:application name="dubbo-client" owner="lhf"/>
 
-    <dubbo:registry protocol="zookeeper" address="47.96.119.178:2181,47.96.119.178:2182,47.96.119.178:2183" file="D:/11" />
+    <dubbo:registry protocol="zookeeper"
+                    address="127.0.0.1"
+                    file="D:/11" />
 
 
     <!-- 可以设置doubbo集群容错机制
